@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Muscle Group</th>
+    <th>Equipment</th>
+    <th>Difficulty</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let exercise of exercises">
+      <td>{{exercise.name}}</td>
+      <td>{{exercise.description}}</td>
+      <td>{{exercise.muscleGroup}}</td>
+      <td>{{exercise.equipment}}</td>
+      <td>{{exercise.difficulty}}</td>
+    </tr>
+  </tbody>
+</table>
